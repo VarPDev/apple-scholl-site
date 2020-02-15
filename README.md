@@ -1,2 +1,2 @@
-# apple-scholl-site
+# apple-school-site
 Project for high school diploma in commarcial school
