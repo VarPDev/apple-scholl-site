@@ -1,0 +1,76 @@
+<!--
+Pasquale de lucia
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css"/>        
+        <link rel="icon" href="img/cursore.png" />
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui-1.8.16/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/about.js"></script>
+
+        <style>
+            a:hover{
+                cursor: url("img/cursore.png"), default;
+            }
+        </style>
+
+        <title>Apple</title>
+    </head>
+    <body>
+        <!-- barra di navigazione -->
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="index.html">The Innovative Apple Enterprise</a>
+
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="about.html">Subjects</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-group pull-right">
+                        <a class="btn" href="index.html">
+                            <i class="icon-arrow-left"></i> 
+                            Back
+                            <i class="icon-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid align-center margintop50">
+            <h1>SCEGLI UN IPOD NANO 4G!</h1>
+            <div class="row-fluid margintop20">
+                <div class="span12 ipod-conteiner">
+                    <a href="economia.html" onmouseover="scambioimg('ipodrosso', 'img/ipodeco.png')" onmouseout="scambioimg('ipodrosso', 'img/ipodrosso.png')" ><img class="ipod" id="ipodrosso" src="img/ipodrosso.png" alt="Panorama di Parigi" title="Panorama di Parigi"/></a>
+                    <a href="informatica.html" onmouseover="scambioimg('ipodblu', 'img/ipodinfo.png')" onmouseout="scambioimg('ipodblu', 'img/ipodblu.png')"><img class="ipod" id="ipodblu" src="img/ipodblu.png" alt="" /></a>
+                    <a href="inglese.html" onmouseover="scambioimg('ipodarancio', 'img/ipoding.png')" onmouseout="scambioimg('ipodarancio', 'img/ipodarancio.png')"><img class="ipod" id="ipodarancio" src="img/ipodarancio.png" alt="" /></a>
+                    <a href="diritto.html" onmouseover="scambioimg('ipodrosa', 'img/ipoddiritto.png')" onmouseout="scambioimg('ipodrosa', 'img/ipodrosa.png')"><img class="ipod" id="ipodrosa" src="img/ipodrosa.png" alt="" /></a>
+                    <a href="storia.html" onmouseover="scambioimg('ipodverde', 'img/ipodsto.png')" onmouseout="scambioimg('ipodverde', 'img/ipodverde.png')"><img class="ipod" id="ipodverde" src="img/ipodverde.png" alt=""/></a>
+                    <a href="letteratura.html" onmouseover="scambioimg('ipodgiallo', 'img/ipodlett.png')" onmouseout="scambioimg('ipodgiallo', 'img/ipodgiallo.png')"><img class="ipod" id="ipodgiallo" src="img/ipodgiallo.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+        <script src="js/bootstrap-dropdown.js"></script>
+        <script src="js/bootstrap-collapse.js"></script>
+
+        <div>
+            <img src="img/apple3d.png" class="posright">
+        </div>
+
+    </body>
+</html>
